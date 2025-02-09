@@ -1,8 +1,6 @@
 import random
 import string
 
-URL = 'http://qa-scooter.praktikum-services.ru'
-
 
 class Util:
     @staticmethod
@@ -17,15 +15,3 @@ class Util:
             "password": generate_random_string(10),
             "firstName": generate_random_string(10)
         }
-
-    ORDER = {
-        "firstName": "Naruto",
-        "lastName": "Uchiha",
-        "address": "Moscow, 142 apt.",
-        "metroStation": 4,
-        "phone": "+7 800 355 35 35",
-        "rentTime": 5,
-        "deliveryDate": "2020-06-06",
-        "comment": "Saske, come back to Konoha",
-        "color": ["BLACK"]
-    }
