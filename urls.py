@@ -1,0 +1,5 @@
+URL = 'http://qa-scooter.praktikum-services.ru'
+COURIER = f'{URL}/api/v1/courier'
+LOGIN = f'{URL}/api/v1/courier/login'
+ORDERS = f'{URL}/api/v1/orders'
+CANCEL = f'{URL}/api/v1/orders/cancel'
